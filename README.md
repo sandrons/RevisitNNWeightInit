@@ -10,6 +10,7 @@ Substituting this into our approximation, we obtain,
 
 $$ L(\mathsf{W}-\gamma \textbf{{g}}) \approx L(\mathsf{W}) -\gamma\,  \textbf{{g}}^{T}\cdot   \textbf{{g}} + \frac{\gamma^2}{2}\, \textbf{{g}}^T\cdot \boldsymbol{\mathsf{H}} \cdot  \textbf{{g}} $$
 
+We conducted the following experiments to support our theoretical findings stated in the previous sections. To cover a broad and diverse range of experiments, we trained our models on the MNIST, FashionMNIST, CIFAR10, Google SVHN, and Flowers image datasets. 
 
 ## Implementation
 
