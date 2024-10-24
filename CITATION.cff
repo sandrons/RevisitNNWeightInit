@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you find this repository helpful, please cite it as below."
+authors:
+  - family-names: "Skorski"
+    given-names: "Maciej"
+  - family-names: "Temperoni"
+    given-names: "Alessandro"
+  - family-names: "Theobald"
+    given-names: "Martin"
+title: "Revisiting Weight Initialization of Deep Neural Networks"
+version: 1.0.0
+date-released: 2021
+url: "https://proceedings.mlr.press/v157/skorski21a/skorski21a.pdf"
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: "Skorski"
+      given-names: "Maciej"
+    - family-names: "Temperoni"
+      given-names: "Alessandro"
+    - family-names: "Theobald"
+      given-names: "Martin"  
+  title: "Revisiting Weight Initialization of Deep Neural Networks"
+  collection-title: "The 13th Asian Conference on Machine Learning (Conference Track)"
+  year: 2021
+  url: "https://proceedings.mlr.press/v157/skorski21a/skorski21a.pdf"
