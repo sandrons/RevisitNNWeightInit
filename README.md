@@ -8,4 +8,6 @@ In general, for training NNs, variants of gradient-descent are applied in order 
 
 $$f(\textbf{{x}}) \approx f(\textbf{{x}}^{(0)}) + (\textbf{{x}} - \textbf{{x}}^{(0)})^T\textbf{{g}} + \frac{1}{2}(\textbf{{x}} - \textbf{{x}}^{(0)})^T \boldsymbol{\mathsf{H}}(\textbf{{x}} - \textbf{{x}}^{(0)}). $$
 
-Substituting this into our approximation, we obtain, $$ L(\mathsf{W}-\gamma \textbf{{g}}) \approx L(\mathsf{W}) -\gamma\,  \textbf{{g}}^{T}\cdot   \textbf{{g}} + \frac{\gamma^2}{2}\, \textbf{{g}}^T\cdot \boldsymbol{\mathsf{H}} \cdot  \textbf{{g}} $$
+Substituting this into our approximation, we obtain, 
+
+$$ L(\mathsf{W}-\gamma \textbf{{g}}) \approx L(\mathsf{W}) -\gamma\,  \textbf{{g}}^{T}\cdot   \textbf{{g}} + \frac{\gamma^2}{2}\, \textbf{{g}}^T\cdot \boldsymbol{\mathsf{H}} \cdot  \textbf{{g}} $$
