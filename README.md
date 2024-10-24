@@ -11,3 +11,6 @@ Substituting this into our approximation, we obtain,
 $$ L(\mathsf{W}-\gamma \textbf{{g}}) \approx L(\mathsf{W}) -\gamma\,  \textbf{{g}}^{T}\cdot   \textbf{{g}} + \frac{\gamma^2}{2}\, \textbf{{g}}^T\cdot \boldsymbol{\mathsf{H}} \cdot  \textbf{{g}} $$
 
 
+## Implementation
+
+See the [notebook](./Hessian_optimizer.ipynb) for details.
