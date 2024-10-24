@@ -13,4 +13,4 @@ $$ L(\mathsf{W}-\gamma \textbf{{g}}) \approx L(\mathsf{W}) -\gamma\,  \textbf{{g
 
 ## Implementation
 
-See the [notebook](./Hessian_optimizer.ipynb) for details.
+See the [notebook](./Experiments_hessian_init.ipynb) for details.
